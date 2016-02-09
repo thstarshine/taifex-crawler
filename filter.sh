@@ -1,7 +1,7 @@
 #!/bin/bash
 # bash filter.sh [TYPE]
 
-DATA_DIR="/app/temp/data/"
+DATA_DIR="/app/taifex-crawler/data/"
 FILES=$DATA_DIR"*.rpt"
 OUTPUT_FILES=$DATA_DIR"*.txt"
 if [ $1 ]
