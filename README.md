@@ -5,7 +5,7 @@
 use crontab:
 
 ```
-00 17 * * * bash /app/taifex_crawler/update.sh
+00 17 * * * bash /app/taifex-crawler/update.sh
 ```
 
 ## Filter script
