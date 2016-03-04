@@ -5,7 +5,7 @@ DIR=/app/taifex-crawler/data
 FILENAME=Daily_$DATE.zip
 
 cd $DIR
-wget https://www.taifex.com.tw/DailyDownload/$FILENAME
+wget http://www.taifex.com.tw/DailyDownload/DailyDownloadCSV/$FILENAME
 
 FILESIZE=$(stat -c %s "$DIR/$FILENAME")
 if [ $FILESIZE -lt 5000 ]

@@ -3,6 +3,8 @@
 
 DATA_DIR="/app/taifex-crawler/data/"
 FILES=$DATA_DIR"*.rpt"
+# From 2016/02/26 the file format is csv
+#FILES=$DATA_DIR"*.csv"
 OUTPUT_FILES=$DATA_DIR"*.txt"
 if [ $1 ]
 	then
