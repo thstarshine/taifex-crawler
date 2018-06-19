@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DATE=$(date +"%Y_%m_%d")
-DIR=/app/taifex-crawler/data
+DIR=/data/app/taifex-crawler/data
 FILENAME=Daily_$DATE.zip
 
 cd $DIR
